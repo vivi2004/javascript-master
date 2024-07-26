@@ -18,12 +18,12 @@ const buttons = document.querySelectorAll('.button') //  this is querySelector w
       }
    })
  })  
+ ```
 
 
-
-```
  ## project 2
- `const form = document.querySelector('form');
+```
+ const form = document.querySelector('form');
 // this usecase will give you empty
 // const height = parseInt(document.querySelector('#height').value)
 
