@@ -45,6 +45,15 @@ form.addEventListener('submit', function (e) {
   }
 });
 
+ ```
+ # project 3
+ ```
+  const clock = document.querySelector('#clock')
+ let date= new Date () 
+ clock.innerHTML =date.toLocaleTimeString()
 
 
+ setInterval(function (){
+     
+ }, 1000)
  ```
