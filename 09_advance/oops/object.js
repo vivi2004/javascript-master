@@ -20,8 +20,7 @@ console.log(multiplBy5.prototype);
       console.log(`score is ${this.score}`);
       
   }
- const tea = createUser("Tea", 33)
- const tuye= createUser( " tyew", 88)
+  const chai = new createUser("chia", 33)
+ chai.printMe()
+  
    
-  
-  
