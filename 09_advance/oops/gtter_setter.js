@@ -5,7 +5,7 @@
 
      } 
      get email() {
-        return this._email.toUpperCase();
+        return this._email.toUpper Case();
         
      }
      set email( value) {
