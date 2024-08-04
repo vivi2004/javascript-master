@@ -10,7 +10,7 @@
     price: " ₹3",
     isAvailable: " True",
     orderbis: function() {
-      console.log( " Biscuit nahi milaa !!! 1");
+      console.log( " Biscuit nahi milaa !!!  ");
       
     } 
  }
@@ -23,9 +23,9 @@
     enumerable: false,
  })
 
-//  console.log(Object.getOwnPropertyDescriptor(biscuit,'name'));
+ //  console.log(Object.getOwnPropertyDescriptor(biscuit,'name'));
 
-for(let [ key , value] of Object.entries(biscuit)) {
+  for(let [ key , value] of Object.entries(biscuit)) {
           if( typeof  value !== 'function') {
 
             console.log( `${ key} : ${ value}`); 
